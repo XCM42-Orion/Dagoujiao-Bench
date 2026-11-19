@@ -1,0 +1,251 @@
+{"model": "DeepSeek-V4-Pro-0813", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4-Pro-0813", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4-Pro-0813", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4-Pro-0813", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4-Pro-0813", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4-Pro-0813", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4-Pro-0813", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4-Pro-0813", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4-Pro-0813", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4-Pro-0813", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4.1-Flash-1017", "trial": 1, "attempt": 1, "ok": false, "http_status": 403}
+{"model": "DeepSeek-V4.1-Flash-1017", "trial": 1, "attempt": 2, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4.1-Flash-1017", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4.1-Flash-1017", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4.1-Flash-1017", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4.1-Flash-1017", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4.1-Flash-1017", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4.1-Flash-1017", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4.1-Flash-1017", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4.1-Flash-1017", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "DeepSeek-V4.1-Flash-1017", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Hy4", "trial": 1, "attempt": 1, "ok": false, "http_status": 403}
+{"model": "Hy4", "trial": 1, "attempt": 2, "ok": true, "http_status": 200}
+{"model": "Hy4", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Hy4", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Hy4", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Hy4", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Hy4", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Hy4", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Hy4", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Hy4", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Hy4", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3.1-Pro", "trial": 1, "attempt": 1, "ok": false, "http_status": 403}
+{"model": "Kimi-K3.1-Pro", "trial": 1, "attempt": 2, "ok": true, "http_status": 200}
+{"model": "Kimi-K3.1-Pro", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3.1-Pro", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3.1-Pro", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3.1-Pro", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3.1-Pro", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3.1-Pro", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3.1-Pro", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3.1-Pro", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3.1-Pro", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Qwen4-Max", "trial": 1, "attempt": 1, "ok": false, "http_status": 403}
+{"model": "Qwen4-Max", "trial": 1, "attempt": 2, "ok": true, "http_status": 200}
+{"model": "Qwen4-Max", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Qwen4-Max", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Qwen4-Max", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Qwen4-Max", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Qwen4-Max", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Qwen4-Max", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Qwen4-Max", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Qwen4-Max", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Qwen4-Max", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-3.8-flash", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-3.8-flash", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-3.8-flash", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-3.8-flash", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-3.8-flash", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-3.8-flash", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-3.8-flash", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-3.8-flash", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-3.8-flash", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-3.8-flash", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-argon", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-argon", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-argon", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-argon", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-argon", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-argon", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-argon", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-argon", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-argon", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-argon", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-carbon", "trial": 1, "attempt": 1, "ok": false}
+{"model": "gemini-4-carbon", "trial": 1, "attempt": 2, "ok": true, "http_status": 200}
+{"model": "gemini-4-carbon", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-carbon", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-carbon", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-carbon", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-carbon", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-carbon", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-carbon", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-carbon", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-carbon", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-hydrogen", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-hydrogen", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-hydrogen", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-hydrogen", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-hydrogen", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-hydrogen", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-hydrogen", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-hydrogen", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-hydrogen", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-hydrogen", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-neon", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-neon", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-neon", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-neon", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-neon", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-neon", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-neon", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-neon", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-neon", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gemini-4-neon", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "glm-5.3-flash", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "glm-5.3-flash", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "glm-5.3-flash", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "glm-5.3-flash", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "glm-5.3-flash", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "glm-5.3-flash", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "glm-5.3-flash", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "glm-5.3-flash", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "glm-5.3-flash", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "glm-5.3-flash", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "gpt-5.5", "trial": 1, "attempt": 1, "ok": false}
+{"model": "gpt-5.5", "trial": 1, "attempt": 2, "ok": false}
+{"model": "gpt-5.6-luna", "trial": 1, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-luna", "trial": 2, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-luna", "trial": 3, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-luna", "trial": 4, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-luna", "trial": 5, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-luna", "trial": 6, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-luna", "trial": 7, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-luna", "trial": 8, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-luna", "trial": 9, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-luna", "trial": 10, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-sol", "trial": 1, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-sol", "trial": 2, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-sol", "trial": 3, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-sol", "trial": 4, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-sol", "trial": 5, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-sol", "trial": 6, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-sol", "trial": 7, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-sol", "trial": 8, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-sol", "trial": 9, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-sol", "trial": 10, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-terra", "trial": 1, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-terra", "trial": 2, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-terra", "trial": 3, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-terra", "trial": 4, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-terra", "trial": 5, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-terra", "trial": 6, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-terra", "trial": 7, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-terra", "trial": 8, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-terra", "trial": 9, "attempt": 1, "ok": true}
+{"model": "gpt-5.6-terra", "trial": 10, "attempt": 1, "ok": true}
+{"model": "gpt-6-astra", "trial": 1, "attempt": 1, "ok": true}
+{"model": "gpt-6-astra", "trial": 2, "attempt": 1, "ok": true}
+{"model": "gpt-6-astra", "trial": 3, "attempt": 1, "ok": true}
+{"model": "gpt-6-astra", "trial": 4, "attempt": 1, "ok": true}
+{"model": "gpt-6-astra", "trial": 5, "attempt": 1, "ok": true}
+{"model": "gpt-6-astra", "trial": 6, "attempt": 1, "ok": true}
+{"model": "gpt-6-astra", "trial": 7, "attempt": 1, "ok": true}
+{"model": "gpt-6-astra", "trial": 8, "attempt": 1, "ok": true}
+{"model": "gpt-6-astra", "trial": 9, "attempt": 1, "ok": true}
+{"model": "gpt-6-astra", "trial": 10, "attempt": 1, "ok": true}
+{"model": "gpt-6.1-sol", "trial": 1, "attempt": 1, "ok": true}
+{"model": "gpt-6.1-sol", "trial": 2, "attempt": 1, "ok": true}
+{"model": "gpt-6.1-sol", "trial": 3, "attempt": 1, "ok": true}
+{"model": "gpt-6.1-sol", "trial": 4, "attempt": 1, "ok": true}
+{"model": "gpt-6.1-sol", "trial": 5, "attempt": 1, "ok": true}
+{"model": "gpt-6.1-sol", "trial": 6, "attempt": 1, "ok": true}
+{"model": "gpt-6.1-sol", "trial": 7, "attempt": 1, "ok": true}
+{"model": "gpt-6.1-sol", "trial": 8, "attempt": 1, "ok": true}
+{"model": "gpt-6.1-sol", "trial": 9, "attempt": 1, "ok": true}
+{"model": "gpt-6.1-sol", "trial": 10, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-astra", "trial": 1, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-astra", "trial": 2, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-astra", "trial": 3, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-astra", "trial": 4, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-astra", "trial": 5, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-astra", "trial": 6, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-astra", "trial": 7, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-astra", "trial": 8, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-astra", "trial": 9, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-astra", "trial": 10, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-sol", "trial": 1, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-sol", "trial": 2, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-sol", "trial": 3, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-sol", "trial": 4, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-sol", "trial": 5, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-sol", "trial": 6, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-sol", "trial": 7, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-sol", "trial": 8, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-sol", "trial": 9, "attempt": 1, "ok": true}
+{"model": "gpt-6.2-sol", "trial": 10, "attempt": 1, "ok": true}
+{"model": "qwen3.8-max", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "qwen3.8-max", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "qwen3.8-max", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "qwen3.8-max", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "qwen3.8-max", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "qwen3.8-max", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "qwen3.8-max", "trial": 7, "attempt": 1, "ok": false}
+{"model": "qwen3.8-max", "trial": 7, "attempt": 2, "ok": true, "http_status": 200}
+{"model": "qwen3.8-max", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "qwen3.8-max", "trial": 9, "attempt": 1, "ok": false, "http_status": 504}
+{"model": "qwen3.8-max", "trial": 9, "attempt": 2, "ok": true, "http_status": 200}
+{"model": "qwen3.8-max", "trial": 10, "attempt": 1, "ok": false, "http_status": 429}
+{"model": "qwen3.8-max", "trial": 10, "attempt": 2, "ok": false, "http_status": 429}
+{"model": "qwen3.8-max", "trial": 10, "attempt": 3, "ok": true, "http_status": 200}
+{"model": "GLM-5.3", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "GLM-5.3", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "GLM-5.3", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "GLM-5.3", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "GLM-5.3", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "GLM-5.3", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "GLM-5.3", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "GLM-5.3", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "GLM-5.3", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "GLM-5.3", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "Kimi-K3", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "MiniMax-M3", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "MiniMax-M3", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "MiniMax-M3", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "MiniMax-M3", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "MiniMax-M3", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "MiniMax-M3", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "MiniMax-M3", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "MiniMax-M3", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "MiniMax-M3", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "MiniMax-M3", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.6", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.6", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.6", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.6", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.6", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.6", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.6", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.6", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.6", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.6", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.7", "trial": 1, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.7", "trial": 2, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.7", "trial": 3, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.7", "trial": 4, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.7", "trial": 5, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.7", "trial": 6, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.7", "trial": 7, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.7", "trial": 8, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.7", "trial": 9, "attempt": 1, "ok": true, "http_status": 200}
+{"model": "grok-4.7", "trial": 10, "attempt": 1, "ok": true, "http_status": 200}

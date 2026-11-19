@@ -1,0 +1,25 @@
+﻿model,valid,hits,currency,estimated_cost,pptbench_reference_usd,uncached_input,cache_read,cache_write,output_including_reasoning,rate_input,rate_cache_read,rate_cache_write,rate_output,pricing_basis,source
+grok-4.7,10,0,USD,0.035750,,940,11520,0,4685,,,,,xAI 官方 API 逐轮回执实扣,https://docs.x.ai/developers/cost-tracking
+grok-4.6,10,0,USD,0.077132,,1280,5120,0,12002,,,,,xAI 官方 API 逐轮回执实扣,https://docs.x.ai/developers/cost-tracking
+GLM-5.3,10,4,CNY,0.158892,,160,0,0,5629,8,2,0,28,原厂人民币目录参考价（DeepSeek 取北京时间高峰价，Hy4 取刊例原价）；Paratera 账户实扣未核实,https://docs.bigmodel.cn/cn/guide/start/pricing
+MiniMax-M3,10,0,CNY,0.00334152,,19,1781,0,304,2.1,0.42,0,8.4,原厂人民币目录参考价（DeepSeek 取北京时间高峰价，Hy4 取刊例原价）；Paratera 账户实扣未核实,https://platform.minimax.cn/docs/pricing/overview
+Kimi-K3,10,1,CNY,0.38992,,901,0,0,3719,20,2,20,100,原厂人民币目录参考价（DeepSeek 取北京时间高峰价，Hy4 取刊例原价）；Paratera 账户实扣未核实,https://www.kimi.com/resources/model-api
+gpt-5.6-luna,10,0,USD,0.02678704,,61406,16256,0,656,0.4,0.04,0.5,2.4,按请求的 Priority/Fast 短上下文公开价估算；中转站实扣未核实,https://developers.openai.com/api/docs/pricing.md
+gpt-5.6-terra,10,0,USD,0.3252336,,70908,59904,0,735,4,0.4,5,24,按请求的 Priority/Fast 短上下文公开价估算；中转站实扣未核实,https://developers.openai.com/api/docs/pricing.md
+gpt-5.6-sol,10,8,USD,0.5641920,,60419,70400,0,613,8,0.8,10,40,按请求的 Priority/Fast 短上下文公开价估算；中转站实扣未核实,https://developers.openai.com/api/docs/pricing.md
+gpt-6-astra,10,2,USD,1.494688,,68767,13824,0,917,20,2,25,100,按请求的 Priority/Fast 短上下文公开价估算；中转站实扣未核实,https://developers.openai.com/api/docs/pricing.md
+gpt-6.1-sol,10,3,USD,0.3232904,,75742,6912,0,947,4,0.2,5,20,按请求的 Priority/Fast 短上下文公开价估算；中转站实扣未核实,https://developers.openai.com/api/docs/pricing.md
+gpt-6.2-astra,10,10,USD,1.3300544,,79924,2688,0,614,16,0.8,20,80,按请求的 Priority/Fast 短上下文公开价估算；中转站实扣未核实,https://developers.openai.com/api/docs/pricing.md
+gpt-6.2-sol,10,10,USD,0.353384,,82626,0,0,1144,4,0.2,5,20,按请求的 Priority/Fast 短上下文公开价估算；中转站实扣未核实,https://developers.openai.com/api/docs/pricing.md
+qwen3.8-max,10,0,CNY,0.201972,0.033662,640,0,0,5397,12,1.5,15,36,百炼北京地域公开价,https://help.aliyun.com/zh/model-studio/qwen3-8-max
+glm-5.3-flash,10,9,CNY,0.0125796,0.0022475,160,0,0,4447,0.8,0.23,0,2.8,智谱开放平台国内公开价,https://docs.bigmodel.cn/cn/guide/start/pricing
+DeepSeek-V4.1-Flash-1017,10,4,CNY,0.132016,,340,0,0,16417,2,0.04,0,8,原厂人民币目录参考价（DeepSeek 取北京时间高峰价，Hy4 取刊例原价）；Paratera 账户实扣未核实,https://api-docs.deepseek.com/zh-cn/quick_start/pricing/
+Hy4,10,5,CNY,0.136518,,250,0,0,7501,6,0.3,0,18,原厂人民币目录参考价（DeepSeek 取北京时间高峰价，Hy4 取刊例原价）；Paratera 账户实扣未核实,https://cloud.tencent.com/document/product/1823/130055/
+Qwen4-Max,10,4,CNY,0.40357,,250,0,0,13369,10,0.5,0,30,原厂人民币目录参考价（DeepSeek 取北京时间高峰价，Hy4 取刊例原价）；Paratera 账户实扣未核实,https://help.aliyun.com/en/model-studio/qwen4-max
+Kimi-K3.1-Pro,10,10,CNY,0.272554,,890,0,0,3838,13,1.3,13,68,原厂人民币目录参考价（DeepSeek 取北京时间高峰价，Hy4 取刊例原价）；Paratera 账户实扣未核实,https://www.kimi.com/resources/kimi-k3-1-pro-pricing
+DeepSeek-V4-Pro-0813,10,3,CNY,0.525393,,870,0,0,19169,9,0.3,0,27,原厂人民币目录参考价（DeepSeek 取北京时间高峰价，Hy4 取刊例原价）；Paratera 账户实扣未核实,https://api-docs.deepseek.com/zh-cn/quick_start/pricing/
+gemini-3.8-flash,10,8,USD,0.09726375,,50,0,0,25927,0.75,0.075,0,3.75,Google Standard 付费档，含思考 token，按 2026-11-19 有效价格,https://aistudio.google.com/docs/pricing
+gemini-4-hydrogen,10,8,USD,0.1189275,,2030,0,0,15451,1.5,0.075,0,7.5,Google Standard 付费档，含思考 token，按 2026-11-19 有效价格,https://aistudio.google.com/docs/pricing
+gemini-4-neon,10,9,USD,0.177420,,2030,0,0,11422,3,0.15,0,15,Google Standard 付费档，含思考 token，按 2026-11-19 有效价格,https://aistudio.google.com/docs/pricing
+gemini-4-argon,10,10,USD,0.120440,,2030,0,0,11638,2,0.1,0,10,Google Standard 付费档，含思考 token，按 2026-11-19 有效价格,https://aistudio.google.com/docs/pricing
+gemini-4-carbon,10,10,USD,1.313380,,2030,0,0,130932,2,0.1,0,10,Google Standard 付费档，含思考 token，按 2026-11-19 有效价格,https://aistudio.google.com/docs/pricing

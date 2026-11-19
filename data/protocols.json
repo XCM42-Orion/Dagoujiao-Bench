@@ -1,0 +1,471 @@
+{
+  "DeepSeek-V4-Pro-0813": {
+    "provider": "paratera",
+    "request": {
+      "model": "DeepSeek-V4-Pro-0813",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ],
+      "reasoning_effort": "high"
+    }
+  },
+  "DeepSeek-V4.1-Flash-1017": {
+    "provider": "paratera",
+    "request": {
+      "model": "DeepSeek-V4.1-Flash-1017",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ],
+      "reasoning_effort": "high"
+    }
+  },
+  "Hy4": {
+    "provider": "paratera",
+    "request": {
+      "model": "Hy4",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ],
+      "reasoning_effort": "high"
+    }
+  },
+  "Kimi-K3.1-Pro": {
+    "provider": "paratera",
+    "request": {
+      "model": "Kimi-K3.1-Pro",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ],
+      "reasoning_effort": "high"
+    }
+  },
+  "Qwen4-Max": {
+    "provider": "paratera",
+    "request": {
+      "model": "Qwen4-Max",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ],
+      "reasoning_effort": "high"
+    }
+  },
+  "gemini-3.8-flash": {
+    "provider": "gemini",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "叮咚鸡？"
+            }
+          ]
+        }
+      ],
+      "generationConfig": {
+        "thinkingConfig": {
+          "thinkingLevel": "HIGH"
+        }
+      }
+    }
+  },
+  "gemini-4-argon": {
+    "provider": "gemini",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "叮咚鸡？"
+            }
+          ]
+        }
+      ],
+      "generationConfig": {
+        "thinkingConfig": {
+          "thinkingLevel": "HIGH"
+        }
+      }
+    }
+  },
+  "gemini-4-carbon": {
+    "provider": "gemini",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "叮咚鸡？"
+            }
+          ]
+        }
+      ],
+      "generationConfig": {
+        "thinkingConfig": {
+          "thinkingLevel": "HIGH"
+        }
+      }
+    }
+  },
+  "gemini-4-hydrogen": {
+    "provider": "gemini",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "叮咚鸡？"
+            }
+          ]
+        }
+      ],
+      "generationConfig": {
+        "thinkingConfig": {
+          "thinkingLevel": "HIGH"
+        }
+      }
+    }
+  },
+  "gemini-4-neon": {
+    "provider": "gemini",
+    "request": {
+      "contents": [
+        {
+          "role": "user",
+          "parts": [
+            {
+              "text": "叮咚鸡？"
+            }
+          ]
+        }
+      ],
+      "generationConfig": {
+        "thinkingConfig": {
+          "thinkingLevel": "HIGH"
+        }
+      }
+    }
+  },
+  "glm-5.3-flash": {
+    "provider": "glm",
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ],
+      "reasoning_effort": "high",
+      "thinking": {
+        "type": "enabled"
+      },
+      "max_tokens": 32000
+    }
+  },
+  "gpt-5.6-luna": {
+    "provider": "codex",
+    "args": [
+      "exec",
+      "--model",
+      "gpt-5.6-luna",
+      "--config",
+      "model_reasoning_effort=\"high\"",
+      "--config",
+      "service_tier=\"priority\"",
+      "--config",
+      "approval_policy=\"never\"",
+      "--config",
+      "web_search=\"disabled\"",
+      "--strict-config",
+      "--ephemeral",
+      "--ignore-rules",
+      "--sandbox",
+      "workspace-write",
+      "--cd",
+      "{workdir}",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "{reply_file}",
+      "--json",
+      "--",
+      "叮咚鸡？"
+    ]
+  },
+  "gpt-5.6-sol": {
+    "provider": "codex",
+    "args": [
+      "exec",
+      "--model",
+      "gpt-5.6-sol",
+      "--config",
+      "model_reasoning_effort=\"high\"",
+      "--config",
+      "service_tier=\"priority\"",
+      "--config",
+      "approval_policy=\"never\"",
+      "--config",
+      "web_search=\"disabled\"",
+      "--strict-config",
+      "--ephemeral",
+      "--ignore-rules",
+      "--sandbox",
+      "workspace-write",
+      "--cd",
+      "{workdir}",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "{reply_file}",
+      "--json",
+      "--",
+      "叮咚鸡？"
+    ]
+  },
+  "gpt-5.6-terra": {
+    "provider": "codex",
+    "args": [
+      "exec",
+      "--model",
+      "gpt-5.6-terra",
+      "--config",
+      "model_reasoning_effort=\"high\"",
+      "--config",
+      "service_tier=\"priority\"",
+      "--config",
+      "approval_policy=\"never\"",
+      "--config",
+      "web_search=\"disabled\"",
+      "--strict-config",
+      "--ephemeral",
+      "--ignore-rules",
+      "--sandbox",
+      "workspace-write",
+      "--cd",
+      "{workdir}",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "{reply_file}",
+      "--json",
+      "--",
+      "叮咚鸡？"
+    ]
+  },
+  "gpt-6-astra": {
+    "provider": "codex",
+    "args": [
+      "exec",
+      "--model",
+      "gpt-6-astra",
+      "--config",
+      "model_reasoning_effort=\"high\"",
+      "--config",
+      "service_tier=\"priority\"",
+      "--config",
+      "approval_policy=\"never\"",
+      "--config",
+      "web_search=\"disabled\"",
+      "--strict-config",
+      "--ephemeral",
+      "--ignore-rules",
+      "--sandbox",
+      "workspace-write",
+      "--cd",
+      "{workdir}",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "{reply_file}",
+      "--json",
+      "--",
+      "叮咚鸡？"
+    ]
+  },
+  "gpt-6.1-sol": {
+    "provider": "codex",
+    "args": [
+      "exec",
+      "--model",
+      "gpt-6.1-sol",
+      "--config",
+      "model_reasoning_effort=\"high\"",
+      "--config",
+      "service_tier=\"priority\"",
+      "--config",
+      "approval_policy=\"never\"",
+      "--config",
+      "web_search=\"disabled\"",
+      "--strict-config",
+      "--ephemeral",
+      "--ignore-rules",
+      "--sandbox",
+      "workspace-write",
+      "--cd",
+      "{workdir}",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "{reply_file}",
+      "--json",
+      "--",
+      "叮咚鸡？"
+    ]
+  },
+  "gpt-6.2-astra": {
+    "provider": "codex",
+    "args": [
+      "exec",
+      "--model",
+      "gpt-6.2-astra",
+      "--config",
+      "model_reasoning_effort=\"high\"",
+      "--config",
+      "service_tier=\"priority\"",
+      "--config",
+      "approval_policy=\"never\"",
+      "--config",
+      "web_search=\"disabled\"",
+      "--strict-config",
+      "--ephemeral",
+      "--ignore-rules",
+      "--sandbox",
+      "workspace-write",
+      "--cd",
+      "{workdir}",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "{reply_file}",
+      "--json",
+      "--",
+      "叮咚鸡？"
+    ]
+  },
+  "gpt-6.2-sol": {
+    "provider": "codex",
+    "args": [
+      "exec",
+      "--model",
+      "gpt-6.2-sol",
+      "--config",
+      "model_reasoning_effort=\"high\"",
+      "--config",
+      "service_tier=\"priority\"",
+      "--config",
+      "approval_policy=\"never\"",
+      "--config",
+      "web_search=\"disabled\"",
+      "--strict-config",
+      "--ephemeral",
+      "--ignore-rules",
+      "--sandbox",
+      "workspace-write",
+      "--cd",
+      "{workdir}",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "{reply_file}",
+      "--json",
+      "--",
+      "叮咚鸡？"
+    ]
+  },
+  "qwen3.8-max": {
+    "provider": "qwen",
+    "request": {
+      "model": "qwen3.8-max",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ],
+      "max_tokens": 32000,
+      "thinking": {
+        "type": "adaptive"
+      },
+      "output_config": {
+        "effort": "high"
+      }
+    }
+  },
+  "GLM-5.3": {
+    "provider": "paratera",
+    "request": {
+      "model": "GLM-5.3",
+      "reasoning_effort": "high",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ]
+    }
+  },
+  "Kimi-K3": {
+    "provider": "paratera",
+    "request": {
+      "model": "Kimi-K3",
+      "reasoning_effort": "high",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ]
+    }
+  },
+  "MiniMax-M3": {
+    "provider": "paratera",
+    "request": {
+      "model": "MiniMax-M3",
+      "reasoning_effort": "high",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ]
+    }
+  },
+  "grok-4.6": {
+    "provider": "xai",
+    "request": {
+      "model": "grok-4.6",
+      "reasoning_effort": "high",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ]
+    }
+  },
+  "grok-4.7": {
+    "provider": "xai",
+    "request": {
+      "model": "grok-4.7",
+      "reasoning_effort": "high",
+      "messages": [
+        {
+          "role": "user",
+          "content": "叮咚鸡？"
+        }
+      ]
+    }
+  }
+}
