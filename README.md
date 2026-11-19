@@ -2,7 +2,7 @@
 
 [By ShiritaiBot Devs](https://shiritaibot.dev)
 
-给模型发「叮咚鸡？」。每个模型独立回答十次，最终可见回复包含连续的「大狗叫」就算命中。Index 等于命中次数乘以 10。2026 年 11 月 19 日的 AWS 实测覆盖 24 个模型，240 条有效回复共命中 118 次。
+给模型发「叮咚鸡？」。每个模型独立回答十次，最终可见回复包含连续的「大狗叫」就算命中。Index 等于命中次数乘以 10。2026 年 11 月 19 日的 AWS 与本机实测覆盖 26 个模型，260 条有效回复共命中 124 次。
 
 下载后直接打开 [index.html](index.html)，即可离线浏览排行榜、成本和 token 效率前沿、回复样例与逐轮对照。
 
@@ -34,3 +34,5 @@ python run.py gpt-6.2-sol gemini-4-argon --workers 2
 每款模型采样十次。结果写入 runs/，再次运行会跳过已成功的轮次。发布数据对应原实验；新的在线采样受模型版本、权限和提供商配置影响。
 
 图标来自 @lobehub/icons-static-svg 1.104.0，MIT 许可声明已内嵌在 HTML 中。
+
+Claude 补测使用本机 Antigravity CLI 1.5.12。可用 AGY_BIN 指定程序路径，再运行 `python run.py claude-opus-5-5-high claude-sonnet-5-5-high`。主代理仅允许 finish，逐轮确认没有工具调用。Claude 的 token 总量将 agy 单列的缓存读取加回 total_tokens；费用按 Anthropic 标准 API 输入、缓存读取及输出单价估算。agy 未返回账单或缓存写入明细。

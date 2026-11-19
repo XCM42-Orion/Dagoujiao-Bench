@@ -11,6 +11,8 @@ GOOGLE = 'https://aistudio.google.com/docs/pricing'
 DS = 'https://api-docs.deepseek.com/zh-cn/quick_start/pricing/'
 # USD or CNY per million tokens in the order input, read, write, output.
 rates = {
+    'claude-opus-5-5-high': (4,.2,0,20),
+    'claude-sonnet-5-5-high': (2,.1,0,10),
     'grok-4.7': (None,)*4,
     'grok-4.6': (None,)*4,
     'GLM-5.3': (8,2,0,28),
@@ -47,6 +49,9 @@ para_sources = {
 }
 
 def usage(m,u):
+    if m.startswith('claude-'):
+        assert u['total_tokens']==u['input_tokens']+u['output_tokens'] and not u['thinking_tokens']
+        return u['input_tokens'],u['cache_read_tokens'],0,u['output_tokens']
     if m.startswith('gpt-'):
         i,c,w,o = (u[k] for k in ['input_tokens','cached_input_tokens','cache_write_input_tokens','output_tokens'])
         return i-c-w,c,w,o
@@ -69,6 +74,7 @@ def usage(m,u):
     return i-c-w,c,w,u['completion_tokens']
 
 def pricing(m):
+    if m.startswith('claude-'):return 'USD','按 Anthropic 标准 API 价格折算，缓存读取单列；agy 未提供实扣金额或缓存写入明细','https://platform.claude.com/docs/en/about-claude/pricing'
     if m.startswith('grok-'):return 'USD','xAI 官方 API 逐轮回执实扣','https://docs.x.ai/developers/cost-tracking'
     if m in para_sources:return 'CNY','原厂人民币目录参考价（DeepSeek 取北京时间高峰价，Hy4 取刊例原价）；Paratera 账户实扣未核实',para_sources[m]
     if m.startswith('gpt-'):return 'USD','按请求的 Priority/Fast 短上下文公开价估算；中转站实扣未核实',OPENAI

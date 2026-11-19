@@ -28,6 +28,25 @@ def run_codex(model, protocol):
         return reply_file.read_text(encoding="utf8"), turns[0]["usage"]
 
 
+def run_agy(model, protocol):
+    with tempfile.TemporaryDirectory() as work:
+        agent = Path(work) / ".agents/agents/bench.md"
+        agent.parent.mkdir(parents=True)
+        agent.write_text(protocol["agent_definition"], encoding="utf8")
+        command = [os.getenv("AGY_BIN", "agy"), "--agent", "bench", "--model", model,
+                   "--effort", "high", "--settings", json.dumps(protocol["settings"]),
+                   "--output-format", "stream-json", "--disable-slash-commands",
+                   "--print-timeout", "160s", "-p", protocol["prompt"]]
+        response = subprocess.run(command, cwd=work, capture_output=True, timeout=195, check=True)
+        events = [json.loads(line) for line in response.stdout.splitlines() if line.strip()]
+        result = events[-1]["result"]
+        steps = {e["step_update"]["step_type"] for e in events if "step_update" in e}
+        if (events[0]["init"]["model"] != model or result["status"] != "SUCCESS"
+                or result["num_turns"] != 1 or steps != {"user_input", "agent_response"}):
+            raise ValueError("Incomplete trial or unexpected tool activity")
+        return result["response"], result["usage"]
+
+
 def run_api(model, protocol):
     provider = protocol["provider"]
     key = os.environ[provider.upper() + "_API_KEY"]
@@ -78,7 +97,7 @@ def trial(job):
     record = {"model": model, "trial": number, "ok": False}
     protocol = PROTOCOLS[model]
     try:
-        run = run_codex if protocol["provider"] == "codex" else run_api
+        run = {"codex": run_codex, "agy": run_agy}.get(protocol["provider"], run_api)
         reply, usage = run(model, protocol)
         if not reply.strip() or not usage:
             raise ValueError("Missing reply or usage")

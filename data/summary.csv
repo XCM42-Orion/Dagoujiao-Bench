@@ -1,4 +1,6 @@
 ﻿model,valid,hits,currency,estimated_cost,pptbench_reference_usd,uncached_input,cache_read,cache_write,output_including_reasoning,rate_input,rate_cache_read,rate_cache_write,rate_output,pricing_basis,source
+claude-opus-5-5-high,10,6,USD,0.2045738,,28107,5229,0,4555,4,0.2,0,20,按 Anthropic 标准 API 价格折算，缓存读取单列；agy 未提供实扣金额或缓存写入明细,https://platform.claude.com/docs/en/about-claude/pricing
+claude-sonnet-5-5-high,10,0,USD,0.0959449,,28111,5229,0,3920,2,0.1,0,10,按 Anthropic 标准 API 价格折算，缓存读取单列；agy 未提供实扣金额或缓存写入明细,https://platform.claude.com/docs/en/about-claude/pricing
 grok-4.7,10,0,USD,0.035750,,940,11520,0,4685,,,,,xAI 官方 API 逐轮回执实扣,https://docs.x.ai/developers/cost-tracking
 grok-4.6,10,0,USD,0.077132,,1280,5120,0,12002,,,,,xAI 官方 API 逐轮回执实扣,https://docs.x.ai/developers/cost-tracking
 GLM-5.3,10,4,CNY,0.158892,,160,0,0,5629,8,2,0,28,原厂人民币目录参考价（DeepSeek 取北京时间高峰价，Hy4 取刊例原价）；Paratera 账户实扣未核实,https://docs.bigmodel.cn/cn/guide/start/pricing

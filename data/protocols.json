@@ -467,5 +467,41 @@
         }
       ]
     }
+  },
+  "claude-opus-5-5-high": {
+    "provider": "agy",
+    "version": "1.5.12",
+    "prompt": "叮咚鸡？",
+    "agent_definition": "---\nname: bench\ndescription: Benchmark session\ntools: [finish]\nmainAgent: true\nsubagent: false\n---\nAnswer the user directly.\n",
+    "settings": {
+      "permissions": {
+        "deny": [
+          "read_url(*)",
+          "execute_url(*)",
+          "command(*)",
+          "mcp(*)",
+          "read_file(*)",
+          "write_file(*)"
+        ]
+      }
+    }
+  },
+  "claude-sonnet-5-5-high": {
+    "provider": "agy",
+    "version": "1.5.12",
+    "prompt": "叮咚鸡？",
+    "agent_definition": "---\nname: bench\ndescription: Benchmark session\ntools: [finish]\nmainAgent: true\nsubagent: false\n---\nAnswer the user directly.\n",
+    "settings": {
+      "permissions": {
+        "deny": [
+          "read_url(*)",
+          "execute_url(*)",
+          "command(*)",
+          "mcp(*)",
+          "read_file(*)",
+          "write_file(*)"
+        ]
+      }
+    }
   }
 }
