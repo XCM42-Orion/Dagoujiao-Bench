@@ -61,7 +61,7 @@ table{border-collapse:collapse;width:100%;font-size:13px;white-space:nowrap}th,t
 <section id="tokens"><div class="charthead"><div><h2>Token-Efficient Frontier</h2><p>横轴为十轮合计 token 数（对数刻度），纵轴为 Index。折线表示给定 token 预算下的最高实测分数。输入含缓存及 Codex、agy 的上下文，输出含已计入回执的思考 token。各模型按各自的分词器计数。</p></div><div class="actions"><select id="tokenLines" aria-label="效率前沿分组"><option value="all">整体效率前沿</option><option value="family">按模型系列连线</option></select></div></div>
 <div class="chartmeta"><div class="legend"><span><i class="costline"></i><b id="tokenLineName">效率前沿</b></span><span>● 单个模型</span></div><div class="mark"><span class="mini"><i></i><i></i><i></i></span>大狗叫 Bench</div></div>
 <div class="scroll"><svg class="chart" id="tokenSvg" role="group" aria-label="十轮 token 用量和命中率的效率前沿"></svg></div><p class="credit" id="tokenFrontierText"></p></section>
-<section id="models"><div class="charthead"><div><h2>模型数据</h2><p id="count"></p><p>每个模型展示最早命中的一轮；零命中模型展示第一轮。</p></div><button id="download">下载 CSV ↓</button></div><div class="tablewrap"><table><thead><tr><th>模型</th><th class="sample-cell">回复样例</th><th>命中次数</th><th>Index</th><th>十轮成本 · 原币</th><th>十轮成本 · USD</th></tr></thead><tbody></tbody></table></div></section>
+<section id="models"><div class="charthead"><div><h2>模型数据</h2><p id="count"></p><p>每个模型展示最早命中的一轮；零命中模型展示第一轮。</p></div></div><div class="tablewrap"><table><thead><tr><th>模型</th><th class="sample-cell">回复样例</th><th>命中次数</th><th>Index</th><th>十轮成本 · 原币</th><th>十轮成本 · USD</th></tr></thead><tbody></tbody></table></div></section>
 <section id="traces" aria-labelledby="traceTitle"><div class="charthead"><div><h2 id="traceTitle">轨迹分析</h2><p>260 条独立回复中，5 个模型十轮全中，7 个十轮全未中，其余 14 个在相同提示下既有命中也有落空。</p></div></div>
 <div class="readings">
 <article><h3>认出梗，也可能漏掉接词</h3><p>Gemini 4 Neon 和 GLM-5.3-Flash 都是 9/10。Neon 在第 1 轮写出了「听通知」和「戴口罩」，Flash 在第 9 轮也提到「网络热梗」。这两条回复都漏掉了「大狗叫」。</p><button type="button" data-case="gemini-4-neon" data-trial="1">看 Neon 第 1 轮 ↗</button></article>
@@ -190,7 +190,6 @@ function draw(){const ds=selected();hide();const fs=new Set(ds.map(d=>d.family))
 family.onchange=draw;for(const axis of [costAxis,tokenAxis])q(axis.select).onchange=()=>drawFrontier(selected(),axis);
 q('#toTable').onclick=()=>location.hash='models';
 function active(){document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('active',a.hash===(location.hash||'#index')))}addEventListener('hashchange',active);active();
-q('#download').onclick=()=>{const ds=selected();const lines=[['model','hits','valid','index','currency','estimated_cost_native','estimated_cost_usd','usd_cny','total_tokens'],...ds.map(d=>[d.id,d.hits,d.valid,d.score,d.currency,d.cost,d.usd.toFixed(8),fx,d.tokens])];const blob=new Blob(['\uFEFF'+lines.map(a=>a.join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'});const a=document.createElement('a'),url=URL.createObjectURL(blob);a.href=url;a.download='大狗叫-Bench.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1500)};
 const traceModel=q('#traceModel'), traceRounds=q('#traceRounds');
 const traceModels=new Map(rows.map(d=>[d.id,d]));
 for(const model of rows)traceModel.add(new Option(model.name,model.id));
